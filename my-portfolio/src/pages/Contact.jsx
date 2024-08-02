@@ -9,7 +9,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  
   };
 
   return (
@@ -22,7 +21,17 @@ const Contact = () => {
           placeholder="Your Name"
           required
           onChange={handleChange}
+          onBlur={() => {
+            if(form.name == "") {
+              document.getElementById("name-notice").style.display = "block"
+            } else {
+              document.getElementById("name-notice").style.display = "none"
+            }
+          }}
         />
+        <p className="notice" id="name-notice">Name cannot be empty!</p>
+        <hr/>
+
         <input
           type="email"
           name="email"
@@ -30,12 +39,19 @@ const Contact = () => {
           required
           onChange={handleChange}
         />
+        <p className="notice" id="email-notice">Email cannot be empty!</p>
+        <hr/>
+
+
         <textarea
           name="message"
           placeholder="Your Message"
           required
           onChange={handleChange}
         />
+        <p className="notice" id="message-notice">Message cannot be empty!</p>
+        <hr/>
+
         <button type="submit">Send</button>
       </form>
     </section>

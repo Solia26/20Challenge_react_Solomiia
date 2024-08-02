@@ -1,10 +1,16 @@
 import React from 'react';
-import Project from './Project';
+import Project from '../components/Project';
 
 const projects = [
   {
     title: 'Project 1',
-    image: 'path/to/image1.jpg',
+    image: 'https://placehold.co/600x400',
+    deployedUrl: 'https://link-to-your-project1.com',
+    repoUrl: 'https://github.com/yourusername/project1',
+  },
+  {
+    title: 'Project 2',
+    image: 'https://placehold.co/600x400',
     deployedUrl: 'https://link-to-your-project1.com',
     repoUrl: 'https://github.com/yourusername/project1',
   },
