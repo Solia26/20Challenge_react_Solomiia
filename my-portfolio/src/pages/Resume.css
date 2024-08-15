@@ -1,0 +1,64 @@
+
+
+.resume-section {
+    background-color: #f8e1f4; 
+    padding: 30px;
+    border-radius: 15px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px; 
+    margin: auto; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+  
+  .resume-section h2 {
+    color: #4a154b; 
+    font-family: 'Pacifico', cursive; 
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .resume-section a {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 10px; 
+    background-color: #d6a8ff; 
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .resume-section a:hover {
+    background-color: #ff85b3; 
+    color: #4a154b; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .resume-section h3 {
+    color: #4a154b; 
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .resume-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .resume-section li {
+    color: #4a154b; 
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  

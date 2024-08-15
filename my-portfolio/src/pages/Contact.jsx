@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Contact.css'; 
 
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -12,7 +13,7 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section className="contact-section">
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
         <input
@@ -22,15 +23,15 @@ const Contact = () => {
           required
           onChange={handleChange}
           onBlur={() => {
-            if(form.name == "") {
-              document.getElementById("name-notice").style.display = "block"
+            if (form.name === "") {
+              document.getElementById("name-notice").style.display = "block";
             } else {
-              document.getElementById("name-notice").style.display = "none"
+              document.getElementById("name-notice").style.display = "none";
             }
           }}
         />
         <p className="notice" id="name-notice">Name cannot be empty!</p>
-        <hr/>
+        <hr />
 
         <input
           type="email"
@@ -40,8 +41,7 @@ const Contact = () => {
           onChange={handleChange}
         />
         <p className="notice" id="email-notice">Email cannot be empty!</p>
-        <hr/>
-
+        <hr />
 
         <textarea
           name="message"
@@ -50,7 +50,7 @@ const Contact = () => {
           onChange={handleChange}
         />
         <p className="notice" id="message-notice">Message cannot be empty!</p>
-        <hr/>
+        <hr />
 
         <button type="submit">Send</button>
       </form>

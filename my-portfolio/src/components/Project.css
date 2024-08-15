@@ -1,0 +1,46 @@
+/* Project.css */
+
+.project-container {
+    background-color: #f8e1f4; /* Light pink background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .project-container h3 {
+    color: #4a154b; /* Dark purple text */
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .project-container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #d6a8ff; /* Light purple button background */
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-container a:hover {
+    background-color: #ff85b3; /* Pink background on hover */
+    color: #4a154b; /* Dark purple text on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
