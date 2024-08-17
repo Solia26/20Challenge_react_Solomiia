@@ -49,13 +49,13 @@ import './Portfolio.css';
 const projects = [
   {
     title: 'Weather Project',
-    image: '../assets/6EBD4BB1-6ACC-442F-B390-D2C8CB1A9A3E.jpg',
+    image: './assets/6EBD4BB1-6ACC-442F-B390-D2C8CB1A9A3E.jpg',
     deployedUrl: 'https://solia26.github.io/Challenge-Weather_ST/',
     repoUrl: 'https://github.com/Solia26/Challenge-Weather_ST',
   },
   {
     title: 'Bird Finder',
-    image: '../assets/photo-1486365227551-f3f90034a57c.webp',
+    image: './assets/photo-1486365227551-f3f90034a57c.webp',
     deployedUrl: 'https://alarrabee.github.io/bird-finder/',
     repoUrl: 'https://github.com/alarrabee/bird-finder',
   },
